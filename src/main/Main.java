@@ -25,7 +25,7 @@ public class Main {
         Student2.setYearOfBirth(1989);
         Student2.getCourse().setName("Graphic design");
         Student2.getCourse().setNumberOfClasses(50);
-        Student2.getComputer().setProcessTact(3.6);
+        Student2.getComputer().setProcessTact(4.0);
         Student2.getComputer().setMemory(16);
         Student2.getComputer().setHardDrive(2000);
         

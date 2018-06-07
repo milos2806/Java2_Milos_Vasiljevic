@@ -5,10 +5,15 @@ package course;
 public class Course {
     private String name ;
     private int  numberOfClasses;
+    public String getName;
     
     public Course(String name, int numberOfClasses) {
         this.name =  name;
         this.numberOfClasses =  numberOfClasses;
+    }
+
+    public Course() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
     public String getName() {
